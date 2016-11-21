@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: "Comic Sans MS";
+  margin-bottom: 15px;
+  text-align: center
+}
+
+p {
+  font-family: "Comic Sans MS";
+  margin-top: 40px; 
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+.title {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 90px;
+  border: 1px solid black;
+  margin: 0;
+  text-align: center;
+}
+
+.red {
+  background-color: red;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.green {
+  background-color: green;
+}
+
+.col-lg-3 > div {
+  position: relative;
+  margin: 15px;
+  border: 1px solid black;
+  background-color: #B7C1C1;
+}
+
+.row {
+  width: 100%;
+}
+
+@media (min-width: 992px) {
+  .col-lg-3 {
+	float: left;
+	width: 33.33%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6 {
+  	float: left;
+    width: 50%;
+  }
+  .col-md-12 {
+  	float: left;
+    width: 100%;
+  }	
+}
