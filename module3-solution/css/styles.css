@@ -1,0 +1,25 @@
+body {
+	font-family: "Comic Sans MS";
+}
+#header-nav {
+	background-color: #B7C1C1;
+	border-radius: 0;
+	border: 0;
+}
+#brand-nav {
+	font-size: 25px;
+	color: black;
+}
+#nav-list li {
+	font-size: 20px;
+	color: black;
+}
+#nav-list li:hover {
+	background-color: #C5CDCD;
+}
+#main-content {
+	background-color: #B7C1C1; 
+}
+#main-content h3 {
+	text-align: center;
+}
